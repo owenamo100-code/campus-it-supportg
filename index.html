@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus IT Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Campus IT Support</h1>
+        <p>Support Ticket Queue Management System</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Submit an IT Problem</h2>
+
+            <form>
+                <label for="student">Student Name</label>
+                <input type="text" id="student"
+                       placeholder="Enter your name">
+
+                <label for="problem">Type of Problem</label>
+                <select id="problem">
+                    <option>Wi-Fi problem</option>
+                    <option>Login problem</option>
+                    <option>Computer problem</option>
+                    <option>Software problem</option>
+                </select>
+
+                <button type="button">
+                    Submit Ticket
+                </button>
+            </form>
+
+            <p class="notice">
+                This page demonstrates the website design.
+                Ticket processing is implemented in the Java program.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Ticket Queue</h2>
+            <p>Tickets are processed in the order they are received.</p>
+
+            <div class="ticket">
+                <h3>Example Ticket #1</h3>
+                <p>Student: Ama</p>
+                <p>Problem: Wi-Fi problem</p>
+                <span>Waiting</span>
+            </div>
+
+            <div class="ticket">
+                <h3>Example Ticket #2</h3>
+                <p>Student: Kofi</p>
+                <p>Problem: Login problem</p>
+                <span>Waiting</span>
+            </div>
+
+            <button type="button">Process Next Ticket</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Campus IT Support System</p>
+    </footer>
+
+</body>
+</html>

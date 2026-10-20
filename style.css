@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f1f3;
+    color: #29232a;
+}
+
+header {
+    background-color: #800020;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2, h3 {
+    color: #800020;
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #800020;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e0018;
+}
+
+.ticket {
+    background-color: #f8eaf0;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 4px solid #800020;
+    border-radius: 5px;
+}
+
+.ticket span {
+    color: #800020;
+    font-weight: bold;
+}
+
+.notice {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 16px;
+    }
+}
